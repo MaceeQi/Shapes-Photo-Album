@@ -1,0 +1,19 @@
+shape myrect rectangle 200 200 50 100 255 0 0
+shape myoval oval 500   100 60 30   0 255 1
+
+# Take a snapshot
+snapshot First Selfie
+move myrect     300 200
+  	resize myrect    25 100
+move myrect 100 300
+
+snapshot description here
+
+# change color
+color myrect 0 0 255
+move myoval 500 400
+
+snapshot
+remove myrect
+
+snapshot last selfie
